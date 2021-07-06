@@ -17,6 +17,7 @@ export class TasksComponent implements OnInit {
     this.taskService.getTasks().subscribe((tasks) => this.tasks = tasks)
   }
 
+  //call method hapus task dari services & filter
   deleteTask(task: Task){
     this.taskService.deleteTask(task).subscribe(() => (this.tasks = this.tasks.filter(t => t.id !== task.id)))     
   }

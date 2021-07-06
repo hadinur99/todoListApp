@@ -11,6 +11,7 @@ import { Task } from '../../Task'
 export class AddTaskComponent implements OnInit {
   @Output() onAddTask: EventEmitter<Task> = new EventEmitter()
 
+  //ngModel pada input fields
   text!: string
   day!: string
   reminder: boolean = false
@@ -26,12 +27,14 @@ export class AddTaskComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  //validation if task field == empty
   onSubmit(){
     if(!this.text){
       alert('Task Empty!')
       return
     }
 
+    //simpan fields sebagai newTask
     const newTask = {
       text: this.text,
       day: this.day,
