@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doctor Appointment",
+      "day": "May 5th",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Beli kebutuhan pokok",
+      "day": "May 5th",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "Dentist Appointment",
+      "day": "May 5th",
+      "reminder": true
+    },
+    {
+      "id": 4,
+      "text": "Beli Jajanan",
+      "day": "May 5th",
+      "reminder": true
+    },
+    {
+      "text": "Beli Minyak",
+      "day": "June 2th",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "text": "beli baju",
+      "day": "July 9th",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "Menabung",
+      "day": "July 9th",
+      "reminder": true,
+      "id": 6
+    }
+  ]
+}
